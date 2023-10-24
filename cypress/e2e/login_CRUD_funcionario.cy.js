@@ -12,8 +12,6 @@ import { funcionario } from "../fixtures/funcionario";
       cy.get('span').contains('PIM').should('be.visible').click();
       //Clicando no botão Adicionar
       cy.get('button').contains('Add').should('be.visible').click();
-      //Upload da imagem do perfil de cadastro
-      cy.get('input[type="file"]').selectFile('cypress/fixtures/itachi.png', {force: true,});
       //Preenchendo dados
       cy.cadastrarFuncionario(funcionario.firstName, funcionario.middleName, funcionario.lastName)
       //Clicando no botão para salvar os dados preenchidos

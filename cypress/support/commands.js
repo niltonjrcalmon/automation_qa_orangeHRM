@@ -11,12 +11,13 @@
     cy.visit("/");
 })
 
-    // Adicionando foto e dados no cadastro do funcionário e depois salvar no banco de dados da empresa
+    // Adicionando dados no cadastro do funcionário e depois salvar no banco de dados da empresa
     Cypress.Commands.add('cadastrarFuncionario', (firstName, middleName, lastName) => {
+        //Upload da imagem do perfil de cadastro
+        cy.get('input[type="file"]').selectFile('cypress/fixtures/itachi.png', {force: true,});
         //Adicionando primeiro nome, nome do meio e sobrenome
         cy.get('input[name="firstName"]').should('be.visible').type(firstName)
         cy.get('input[name="middleName"]').should('be.visible').type(middleName)
-        cy.get('input[name="lastName"]').should('be.visible').type(lastName)
-        
-})
-  
+        cy.get('input[name="lastName"]').should('be.visible').type(lastName)        
+
+    })
