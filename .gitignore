@@ -4,3 +4,4 @@
 /cypress/results/json/mochawesome.json -text
 .env
 /public
+cucumber-cucumberJson/

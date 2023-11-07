@@ -1,11 +1,3 @@
 import './commands'
-import 'cypress-file-upload';
 import "cypress-if";
-import addContext from "mochawesome/addContext";
-
-Cypress.on("test:after:run", (test, runnable) => {
-  let videoName = Cypress.spec.name;
-  videoName = videoName.replace("/.js.*", ".js");
-  const videoUrl = "videos/" + videoName + ".mp4";
-  addContext({ test }, videoUrl);
-});
+import 'cypress-file-upload';
