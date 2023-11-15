@@ -31,7 +31,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 3614000000
+              "duration": 16607000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "cadastro é realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 9564000000
+              "duration": 12768000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "acesso o MENU PIM de funcionário",
             "result": {
               "status": "passed",
-              "duration": 2546000000
+              "duration": 2433000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "preencho o campo para realizar pesquisa de funcionário",
             "result": {
               "status": "passed",
-              "duration": 2298000000
+              "duration": 3041000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "funcionário listado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 1244000000
+              "duration": 1534000000
             }
           }
         ]
