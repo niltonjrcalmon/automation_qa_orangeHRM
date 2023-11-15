@@ -1,0 +1,151 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login no site da OrangeRh",
+    "line": 3,
+    "id": "login-no-site-da-orangerh",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-no-site-da-orangerh;login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login com sucesso",
+        "tags": [
+          {
+            "name": "@Positivo",
+            "line": 5
+          },
+          {
+            "name": "@smokeTest",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "acesso a pagina de login",
+            "result": {
+              "status": "passed",
+              "duration": 10515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "realizo o login com dados válidos",
+            "result": {
+              "status": "passed",
+              "duration": 1866000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "login é realizado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-no-site-da-orangerh;login-sem-sucesso:-senha-incorreta",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Login sem sucesso: Senha incorreta",
+        "tags": [
+          {
+            "name": "@Negativo",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "acesso a pagina de login",
+            "result": {
+              "status": "passed",
+              "duration": 2641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "realizo login com \"Admin\" e \"123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "alerta de dados incorretos é exibido",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-no-site-da-orangerh;login-sem-sucesso:-login-incorreto",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Login sem sucesso: Login incorreto",
+        "tags": [
+          {
+            "name": "@Negativo",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "acesso a pagina de login",
+            "result": {
+              "status": "passed",
+              "duration": 1810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "realizo login com \"123\" e \"admin123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "alerta de dados incorretos é exibido",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
