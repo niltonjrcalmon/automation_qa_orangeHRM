@@ -5,3 +5,4 @@
 /public
 cypress/reports
 cypress/downloads
+cypress/results

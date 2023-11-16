@@ -31,7 +31,7 @@
             "name": "acesso a pagina de login",
             "result": {
               "status": "passed",
-              "duration": 8408000000
+              "duration": 11094000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "realizo o login com dados válidos",
             "result": {
               "status": "passed",
-              "duration": 1993000000
+              "duration": 1722000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "login é realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 467000000
             }
           }
         ]
@@ -76,7 +76,7 @@
             "name": "acesso a pagina de login",
             "result": {
               "status": "passed",
-              "duration": 2524000000
+              "duration": 2618000000
             }
           },
           {
@@ -86,7 +86,7 @@
             "name": "realizo login com \"Admin\" e \"123\"",
             "result": {
               "status": "passed",
-              "duration": 1546000000
+              "duration": 1539000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "alerta de dados incorretos é exibido",
             "result": {
               "status": "passed",
-              "duration": 396000000
+              "duration": 437000000
             }
           }
         ]
@@ -121,7 +121,7 @@
             "name": "acesso a pagina de login",
             "result": {
               "status": "passed",
-              "duration": 2016000000
+              "duration": 1761000000
             }
           },
           {
@@ -131,7 +131,7 @@
             "name": "realizo login com \"123\" e \"admin123\"",
             "result": {
               "status": "passed",
-              "duration": 1274000000
+              "duration": 1273000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "alerta de dados incorretos é exibido",
             "result": {
               "status": "passed",
-              "duration": 391000000
+              "duration": 399000000
             }
           }
         ]
