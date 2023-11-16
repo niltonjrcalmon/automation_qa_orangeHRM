@@ -1,4 +1,3 @@
-// import { funcionario } from "../fixtures/funcionario";
 import EmployeeRegistrationElements from "../elements/employeeRegistrationElements";
 const employeeRegistrationElements = new EmployeeRegistrationElements
 
@@ -14,6 +13,8 @@ class EmployeeRegistrationPage{
     cadastroDeFuncionario(firstName, middleName, lastName){
 
         cy.get(employeeRegistrationElements.imageFile()).selectFile('cypress/fixtures/itachi.png', {force: true,});
+            
+
         if (firstName === "") {
             cy.get(employeeRegistrationElements.inputFirstName()).clear();
         } else {
@@ -36,7 +37,7 @@ class EmployeeRegistrationPage{
 
         cy.get(employeeRegistrationElements.idExists())
         .if("contain", "Employee Id already exists")
-        .get(".oxd-input.oxd-input--active.oxd-input--error")
+        .get(employeeRegistrationElements.idImput())
         .clear()
         .type(Math.floor(Math.random() * 10000))
         .then(() => {

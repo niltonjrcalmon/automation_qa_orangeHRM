@@ -31,7 +31,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 3447000000
+              "duration": 12941000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3392000000
+              "duration": 3110000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "preencho os campos de cadastro",
             "result": {
               "status": "passed",
-              "duration": 3146000000
+              "duration": 2476000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "cadastro de funcionário realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4702000000
+              "duration": 4131000000
             }
           }
         ]
@@ -86,7 +86,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4253000000
+              "duration": 4479000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3712000000
+              "duration": 3419000000
             }
           },
           {
@@ -105,8 +105,8 @@
             "line": 16,
             "name": "preencher o formulário, os seguintes campos \"\", \"\" e \"\"",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.type()` can only be called on a single element. Your subject contained 3 elements.\n    at Context.type (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:114343:68)\n    at wrapped (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:138509:19)\nFrom Your Spec Code:\n    at evaluateAssertion (node_modules/cypress-if/src/index.js:105:0)\n    at Context.eval (node_modules/cypress-if/src/index.js:141:0)"
+              "status": "passed",
+              "duration": 2452000000
             }
           },
           {
@@ -115,7 +115,8 @@
             "line": 17,
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 93000000
             }
           }
         ]
@@ -140,7 +141,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4349000000
+              "duration": 4101000000
             }
           },
           {
@@ -150,7 +151,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3547000000
+              "duration": 3160000000
             }
           },
           {
@@ -159,8 +160,8 @@
             "line": 16,
             "name": "preencher o formulário, os seguintes campos \"\", \"Calazans\" e \"Rios\"",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.type()` can only be called on a single element. Your subject contained 2 elements.\n    at Context.type (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:114343:68)\n    at wrapped (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:138509:19)\nFrom Your Spec Code:\n    at evaluateAssertion (node_modules/cypress-if/src/index.js:105:0)\n    at Context.eval (node_modules/cypress-if/src/index.js:141:0)"
+              "status": "passed",
+              "duration": 2497000000
             }
           },
           {
@@ -169,7 +170,8 @@
             "line": 17,
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 55000000
             }
           }
         ]
@@ -194,7 +196,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4524000000
+              "duration": 4302000000
             }
           },
           {
@@ -204,7 +206,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 2806000000
+              "duration": 2897000000
             }
           },
           {
@@ -213,8 +215,8 @@
             "line": 16,
             "name": "preencher o formulário, os seguintes campos \"Richard\", \"Calazans\" e \"\"",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.type()` can only be called on a single element. Your subject contained 2 elements.\n    at Context.type (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:114343:68)\n    at wrapped (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:138509:19)\nFrom Your Spec Code:\n    at evaluateAssertion (node_modules/cypress-if/src/index.js:105:0)\n    at Context.eval (node_modules/cypress-if/src/index.js:141:0)"
+              "status": "passed",
+              "duration": 2637000000
             }
           },
           {
@@ -223,7 +225,8 @@
             "line": 17,
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 55000000
             }
           }
         ]
