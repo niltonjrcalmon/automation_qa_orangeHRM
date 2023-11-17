@@ -12,10 +12,13 @@ Projeto com finalidade de automação de testes e2e (front-end) da orangeHRM, ut
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript "JavaScript")
  
 ## Estrutura de pastas
-- [integration/features] => esta pasta contém os arquivos Gherkin que descreve os cenários de testes, sejam eles positivo ou negativo.
-- [elements] => contém arquivos ou classes que representam elementos da interface do usuário (UI), como botões, campos de entrada, etc. 
-- [pages] => organiza o código relacionado a cada página da web, as classes nesta pasta irá conter métodos para interagir com a página, além de chamar métodos dos elementos (definidos em elements/) para realizar ações.
--[steps] => conecta os cenários Gherkin aos métodos de implementação, permitindo que execução dos cenários seja automatizada. Cada método corresponde a um passo Gherkin.
+**integration/features**: Esta pasta contém os arquivos Gherkin que descrevem os cenários de testes, sejam eles positivos ou negativos.
+
+**elements**: Contém arquivos ou classes que representam elementos da interface do usuário (UI), como botões, campos de entrada, etc.
+
+**pages**: Organiza o código relacionado a cada página da web. As classes nesta pasta irão conter métodos para interagir com a página, além de chamar métodos dos elementos (definidos em `elements/`) para realizar ações.
+
+**steps**: Conecta os cenários Gherkin aos métodos de implementação, permitindo que a execução dos cenários seja automatizada. Cada método corresponde a um passo Gherkin.
  
 ## Tutorial, Instalação e execução
  
@@ -25,14 +28,16 @@ Projeto com finalidade de automação de testes e2e (front-end) da orangeHRM, ut
  
 **Instalar as dependências:**  
 ```
-npm install: instalar as dependências do projeto
+npm install
 ```
  
-### Tutorial para iniciar um novo projeto utilizando está estrutura
+### Tutorial para iniciar um novo projeto utilizando esta estrutura
  
 * Dentro da pasta especifica para o projeto:
+
+**Pacote para inicializar um novo projeto Node.js e criar um arquivo package.json com valores padrão**
 ```
-npm init -y:  é usado para inicializar um novo projeto Node.js e criar um arquivo package.json com valores padrão 
+npm init -y 
 ```
  
 * Instalar a última versão do cypress:
@@ -45,8 +50,12 @@ npm install --save-dev mochawesome
 npm install cypress-multi-reporters --save-dev
 ```
 * Somente para o cucumber: 
+**Pacote que permite que você escreva seus testes usando a sintaxe Gherkin do Cucumber.**
 ```
-npm install --save-dev cypress-cucumber-preprocessor: permite que você escreva seus testes usando a sintaxe Gherkin do Cucumber.
+npm install --save-dev cypress-cucumber-preprocessor
+```
+**Pacote que permite gerar relatórios HTML a partir dos resultados dos testes Cucumber.**
+```
 npm install --save-dev multiple-cucumber-html-reporter: para gerar relatórios HTML a partir dos resultados dos testes Cucumber.
 
 ```
@@ -54,11 +63,18 @@ npm install --save-dev multiple-cucumber-html-reporter: para gerar relatórios H
 ### Trick
  
 * Execução de testes no `NPM SCRIPTS`:
+**Abrir o Cypress**
 ```
-npm run cy:open  => abrir o Cypress
-npm run cy:run   => executar os testes e gerar relatório 
-npm run report:merge  => gerar relatórios de testes
-npm run report:generate  => gerar relatórios de testes
+npm run cy:open
+```
+**Executar os testes e gerar relatório**
+```
+npm run cy:run 
+```
+**Gerar os relatórios de testes**
+```
+npm run report:merge 
+npm run report:generate 
 ```
  
 ## Acesso ao projeto e/ou relatório 
