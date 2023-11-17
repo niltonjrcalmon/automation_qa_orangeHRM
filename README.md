@@ -57,10 +57,11 @@ npm install cypress-multi-reporters --save-dev
 
 - [Faker](https://github.com/faker-js/faker "Faker"): gerar dados de teste.
 
-- [Cypress-if](https://github.com/bahmutov/cypress-if "Cypress-if"): lógica condicional if-else para os testes condicionais. 
+- [Cypress-if](https://github.com/bahmutov/cypress-if "Cypress-if"): lógica condicional if-else para os testes condicionais.
 
-* Somente para o cucumber:
-  
+
+* Somente para o cucumber: 
+
 **Pacote que permite que você escreva seus testes usando a sintaxe Gherkin do Cucumber.**
 ```
 npm install --save-dev cypress-cucumber-preprocessor
@@ -71,7 +72,7 @@ npm install --save-dev multiple-cucumber-html-reporter
 
 ```
 
-### Trick
+### Truque
  
 * Execução de testes no `NPM SCRIPTS`:
 
