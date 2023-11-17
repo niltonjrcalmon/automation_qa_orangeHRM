@@ -13,7 +13,7 @@ jobs:
       - name: Merge test results into one
         run: npm run report:merge
       - name: Generate results
-        run: npm run report:generate
+        run: npm run generate:report
       - name: Deploy reports page
         uses: peaceiris/actions-gh-pages@v3
         with:
