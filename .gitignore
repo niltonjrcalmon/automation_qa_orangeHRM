@@ -1,8 +1,7 @@
 /node_modules
 /cypress/screenshots
 /cypress/videos
-.env
-/public
 cypress/reports
 cypress/downloads
 cypress/results
+cypress/cucumber-cucumberJson

@@ -55,10 +55,12 @@ npm install --save-dev mochawesome
 npm install cypress-multi-reporters --save-dev
 ```
 * **Faker:** gerar dados de teste.
--[Faker](https://github.com/faker-js/faker "Faker")
+
+- [Faker](https://github.com/faker-js/faker "Faker")
 
 * **cypress-if:** lógica condicional if-else para os testes condicionais.
--[Cypress-if](https://github.com/bahmutov/cypress-if "Cypress-if")
+
+- [Cypress-if](https://github.com/bahmutov/cypress-if "Cypress-if")
 
 * Somente para o cucumber: 
 **Pacote que permite que você escreva seus testes usando a sintaxe Gherkin do Cucumber.**
