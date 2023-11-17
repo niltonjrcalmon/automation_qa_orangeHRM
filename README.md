@@ -1,6 +1,6 @@
 # Cypress OrangeHRM 
  
-Projeto com finalidade de automação de testes e2e (front-end) da orangeHRM, utilizando o framework Cypress. Desenvolvido no modelo BDD(Desenvolvimento Orientado a Comportamento) com intuito de escrever testes guiados pelo comportamento do usuário e pelos negócios. Seguindo a estrutura Gherkin, uma linguagem de formatação de texto simples, sendo organizado pelas seguintes condições (Cenário, Dado, Quando, E, Então). E por final, utilizando o Cucumber que é uma ferramenta de software que vai permitir que os cenários de testes inscrito na linguagem Gherkin, sejam executados como testes automatizados.
+Projeto com finalidade de automação de testes e2e (front-end) da orangeHRM, utilizando o framework Cypress. Desenvolvido no modelo BDD (Desenvolvimento Orientado a Comportamento) com intuito de escrever testes guiados pelo comportamento do usuário e pelos negócios. Seguindo a estrutura Gherkin, uma linguagem de formatação de texto simples, sendo organizado pelas seguintes condições (Cenário, Dado, Quando, E, Então). E por final, utilizando o Cucumber que é uma ferramenta de software que vai permitir que os cenários de testes inscrito na linguagem Gherkin, sejam executados como testes automatizados.
  
 ## Ferramentas utilizadas:
 - [VSCode](https://code.visualstudio.com/ "VSCode")
@@ -23,6 +23,11 @@ Projeto com finalidade de automação de testes e2e (front-end) da orangeHRM, ut
 ## Tutorial, Instalação e execução
  
 ### Executar este projeto em sua maquina
+
+* Clone o repositório 
+```
+https://github.com/niltonjrcalmon/automation_qa_orangeHRM.git
+```
  
 * Em um terminal, dentro da pasta do projeto, execute o seguinte comando:
  
@@ -44,11 +49,17 @@ npm init -y
 ```
 npm install --save-dev cypress
 ```
-* Somente para o report:  
+* Somente para o report do mochawesome:  
 ```
 npm install --save-dev mochawesome
 npm install cypress-multi-reporters --save-dev
 ```
+* **Faker:** gerar dados de teste.
+-[Faker](https://github.com/faker-js/faker "Faker")
+
+* **cypress-if:** lógica condicional if-else para os testes condicionais.
+-[Cypress-if](https://github.com/bahmutov/cypress-if "Cypress-if")
+
 * Somente para o cucumber: 
 **Pacote que permite que você escreva seus testes usando a sintaxe Gherkin do Cucumber.**
 ```
@@ -56,13 +67,14 @@ npm install --save-dev cypress-cucumber-preprocessor
 ```
 **Pacote que permite gerar relatórios HTML a partir dos resultados dos testes Cucumber.**
 ```
-npm install --save-dev multiple-cucumber-html-reporter: para gerar relatórios HTML a partir dos resultados dos testes Cucumber.
+npm install --save-dev multiple-cucumber-html-reporter
 
 ```
 
 ### Trick
  
 * Execução de testes no `NPM SCRIPTS`:
+
 **Abrir o Cypress**
 ```
 npm run cy:open
@@ -80,4 +92,4 @@ npm run report:generate
 ## Acesso ao projeto e/ou relatório 
 Configurado no workflow do GitHub para gerar os relatórios de testes e acessa-lo no GitHub Pages. Abaixo está a URL de acesso:
 
-https://niltonjrcalmon.github.io/automation_qa_orangeHRM/
+### https://niltonjrcalmon.github.io/automation_qa_orangeHRM/
