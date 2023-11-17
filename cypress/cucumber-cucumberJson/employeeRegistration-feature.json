@@ -31,7 +31,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 12843000000
+              "duration": 12544000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3242000000
+              "duration": 2817000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "preencho os campos de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2412000000
+              "duration": 2675000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "cadastro de funcionário realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4641000000
+              "duration": 4339000000
             }
           }
         ]
@@ -86,7 +86,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4171000000
+              "duration": 4534000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3407000000
+              "duration": 2978000000
             }
           },
           {
@@ -106,7 +106,7 @@
             "name": "preencher o formulário, os seguintes campos \"\", \"\" e \"\"",
             "result": {
               "status": "passed",
-              "duration": 2420000000
+              "duration": 2447000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 106000000
             }
           }
         ]
@@ -141,7 +141,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4368000000
+              "duration": 3567000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 3363000000
+              "duration": 2821000000
             }
           },
           {
@@ -161,7 +161,7 @@
             "name": "preencher o formulário, os seguintes campos \"\", \"Calazans\" e \"Rios\"",
             "result": {
               "status": "passed",
-              "duration": 2704000000
+              "duration": 2425000000
             }
           },
           {
@@ -171,7 +171,7 @@
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 45000000
             }
           }
         ]
@@ -196,7 +196,7 @@
             "name": "login e realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 5704000000
+              "duration": 3439000000
             }
           },
           {
@@ -206,7 +206,7 @@
             "name": "acesso pagina de cadastro de funcionário",
             "result": {
               "status": "passed",
-              "duration": 2842000000
+              "duration": 2893000000
             }
           },
           {
@@ -216,7 +216,7 @@
             "name": "preencher o formulário, os seguintes campos \"Richard\", \"Calazans\" e \"\"",
             "result": {
               "status": "passed",
-              "duration": 2457000000
+              "duration": 2439000000
             }
           },
           {
@@ -226,7 +226,7 @@
             "name": "clicar em salvar, realizar alerta de mensagem de campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 48000000
+              "duration": 51000000
             }
           }
         ]
